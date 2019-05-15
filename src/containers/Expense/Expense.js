@@ -39,7 +39,7 @@ class Expense extends React.Component {
     const bills =
       expense.bills !== "" ? (
         <p>
-          <a href={"https://classix.xyz/spencer/data/" + expense.bills}>
+          <a href={"https://classix.xyz/spencer/data/" + expense.bill}>
             One Bill
           </a>{" "}
           attached
