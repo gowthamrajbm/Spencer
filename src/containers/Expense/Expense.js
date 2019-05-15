@@ -36,6 +36,17 @@ class Expense extends React.Component {
 
   render() {
     const expense = this.state.expense;
+    const bills =
+      expense.bills !== "" ? (
+        <p>
+          <a href={"https://classix.xyz/spencer/data/" + expense.bills}>
+            One Bill
+          </a>{" "}
+          attached
+        </p>
+      ) : (
+        <p>No bills attached</p>
+      );
     return (
       <div className="Expense-Outer">
         <div className="Expense-Inner">
@@ -77,11 +88,7 @@ class Expense extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="Expense-Foot">
-              <p>
-                <a href="">One Bill</a> attached
-              </p>
-            </div>
+            <div className="Expense-Foot">{bills}</div>
           </div>
         </div>
       </div>
