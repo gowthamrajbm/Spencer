@@ -37,7 +37,7 @@ class Expense extends React.Component {
   render() {
     const expense = this.state.expense;
     const bills =
-      expense.bills !== "" ? (
+      expense.bills !== null ? (
         <p>
           <a href={"https://classix.xyz/spencer/data/" + expense.bill}>
             One Bill
