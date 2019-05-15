@@ -1,0 +1,12 @@
+.SpenceTable {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  max-width: 1120px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .SpenceTable {
+    padding: 0;
+  }
+}

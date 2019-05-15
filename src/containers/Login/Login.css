@@ -1,0 +1,22 @@
+.Login {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.Login h3 {
+  color: #555;
+}
+.Login-Card {
+  width: 80%;
+  max-width: 350px;
+  box-shadow: 0px 0px 0px 0px #000;
+  padding: 40px 10px;
+  box-sizing: border-box;
+  background: white;
+}
+.LF-Footer {
+  text-align: center;
+  padding: 10px;
+}

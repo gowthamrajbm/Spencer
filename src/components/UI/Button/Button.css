@@ -1,0 +1,42 @@
+.Button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.Button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.Success {
+  color: #5c9210;
+}
+
+.Classic {
+  background: #009bc5;
+}
+.Classic-L {
+  width: 100%;
+  padding: 10px;
+}
+
+.Classic-o {
+  border: 1px solid #009bc5;
+  color: #009bc5;
+}
+
+.Danger {
+  color: #944317;
+}
+
+.Default {
+  color: #efefef;
+}

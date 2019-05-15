@@ -1,0 +1,75 @@
+.Expense-Cont {
+  padding: 30px 15px;
+  box-shadow: 0px 0px 1px 0px #eee;
+  margin-top: 20px;
+  background: white;
+}
+.Expense-Tools {
+  display: flex;
+  justify-content: flex-end;
+}
+.Expense-Tools button {
+  margin-left: 10px;
+}
+.Expense-Inner {
+  width: 100%;
+  max-width: 900px;
+}
+.Expense-Outer {
+  margin: 40px 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.Expense-Head {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px dashed #ddd;
+  padding-bottom: 15px;
+}
+.Expense-Status {
+}
+.Expense-Id {
+  display: flex;
+  flex-flow: column;
+}
+.Expense-Id h3 {
+  margin: 5px 0;
+  text-align: right;
+}
+.Expense-Id span {
+  font-size: 10px;
+  color: #666;
+  text-align: right;
+}
+.Expense-Body {
+  border-bottom: 1px dashed #ddd;
+  padding: 15px 0;
+}
+.Expense-Row {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+.Expense-Detcell {
+  display: flex;
+  flex-flow: column;
+  flex-basis: 50%;
+  text-align: right;
+}
+.Expense-Detcell p {
+  font-size: 12px;
+  color: #666;
+}
+.Expense-Detcell h4 {
+  margin: 0;
+}
+.Expense-Detcell span {
+  font-size: 15px;
+}
+.Expense-Foot {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 13px;
+}

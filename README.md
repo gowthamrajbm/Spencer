@@ -1,2 +1,0 @@
-# Spencer
-Created with CodeSandbox

@@ -1,0 +1,8 @@
+.KPIS {
+  display: inline-block;
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  align-items: center;
+}

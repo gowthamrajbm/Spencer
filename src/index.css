@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Form-Alert {
+  background: rgb(113, 203, 255);
+  border: 1px solid rgb(17, 140, 255);
+  padding: 10px;
+  color: white;
+  margin: 10px;
+  border-radius: 3px;
+}
+.Form-Alert.Success {
+  background: rgb(59, 218, 119);
+  border-color: rgb(0, 182, 106);
+}
+.Form-Alert.Danger {
+  background: rgb(253, 124, 124);
+  border-color: red;
+}

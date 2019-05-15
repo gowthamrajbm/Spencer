@@ -1,0 +1,21 @@
+.PagebarItem {
+  margin: 0px 0;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  display: block;
+}
+
+.PagebarItem a {
+  color: #8f5c2c;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  font-size: 12px;
+}
+
+.PagebarItem a:hover,
+.PagebarItem a:active,
+.PagebarItem a.active {
+  font-weight: bold;
+}

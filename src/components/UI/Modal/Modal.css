@@ -1,0 +1,36 @@
+.Modal {
+  position: relative;
+  z-index: 500;
+  background-color: white;
+  width: 90%;
+  padding: 16px;
+  left: 5%;
+  top: 20%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(49, 48, 48, 0.3);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.Modal-Cont {
+  position: fixed;
+  overflow-y: scroll;
+  flex-flow: column;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 102;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 600px) {
+  .Modal {
+    width: 500px;
+    left: calc(50% - 250px);
+  }
+}
