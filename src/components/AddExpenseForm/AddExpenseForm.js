@@ -235,7 +235,11 @@ class AddExpenseForm extends Component {
           </div>
         ))}
         <div className="SEF-Footer">
-          <Button btnType="Classic-o" clicked={this.props.cancelled}>
+          <Button
+            btnType="Classic-o"
+            type="reset"
+            clicked={this.props.cancelled}
+          >
             Cancel
           </Button>
           <Button
